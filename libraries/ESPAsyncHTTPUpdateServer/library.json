@@ -1,0 +1,75 @@
+{
+    "name": "ESPAsyncHTTPUpdateServer",
+    "version": "2.0.0",
+    "description": "Simple/Stylized HTTP Update Server for ESPAsyncWebServer(by me-no-dev). This library lets you to update Firmware/FileSystem of ESP32/ESP8266 OTA(Over The Air) from a web page.",
+    "keywords": 
+    [
+      "ESP",
+      "Async",
+      "OTA",
+      "WebServer",
+      "HTTP",
+      "UpdateServer",
+      "FileSystem",
+      "Firmware",
+      "Style"
+    ],
+    "repository":
+    {
+      "type": "git",
+      "url": "https://github.com/IPdotSetAF/ESPAsyncHTTPUpdateServer.git"
+    },
+    "authors":
+    [
+      {
+        "name": "Mohammad Mahdi Nazari",
+        "email": "ipdotsetaf@gmail.com",
+        "url": "https://github.com/IPdotSetAF",
+        "maintainer": true
+      }
+    ],
+    "license": "LGPL-2.1-only",
+    "homepage": "https://github.com/IPdotSetAF/ESPAsyncHTTPUpdateServer",
+    "dependencies": 
+    [
+      {
+        "owner": "me-no-dev",
+        "name": "ESP Async WebServer",
+        "frameworks": "arduino",
+        "platforms": 
+        [
+          "espressif32",
+          "espressif8266"
+        ],
+        "version": ">=1.2.4"
+      },
+      {
+        "name": "SPIFFS",
+        "frameworks": "arduino",
+        "platforms": "espressif32",
+        "version": "*"
+      },
+      {
+        "name": "LittleFS",
+        "frameworks": "arduino",
+        "platforms":
+        [
+          "espressif32",
+          "espressif8266"
+        ],
+        "version": "*"
+      },
+      {
+        "name": "Update",
+        "frameworks": "arduino",
+        "platforms": "espressif32",
+        "version": "*"
+      }
+    ],
+    "frameworks": "arduino",
+    "platforms": 
+    [
+      "espressif32",
+      "espressif8266"
+    ]
+  }
